@@ -15,7 +15,7 @@ function showEduardo() {
 }
 
 function modelSVC(radiusMean, textureMean, perimeterMean, smoothnessMean) {
-  if (radiusMean + textureMean + 3 * perimeterMean - 4* smoothnessMean > 0) {
+  if (-2.7*radiusMean + 0.13*textureMean + 0.5*perimeterMean - 0.6*smoothnessMean -9.9 > 0) {
     return true;
   }
   return false;
